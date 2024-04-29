@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Imágenes</title>
-        <style>
-            body {
-                background-color:#444746  
-            }
-             
-        </style>
-
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="estilos.css">
+        <div><a href="index.html">Google Search</a></div>
     </head>
     <body>
-
-        <img src="C:\progra\project 0\PROJECT-0---CS50\gimagenes.png"
+        <img src="C:\progra\project 0\PROJECT-0---CS50\gimagenes.png">
         <br/> <br/>
+       <h3> Búsqueda avanzada </h3>
+        <hr size="1px" color="black" />
+        <div class="advanced-inputs">
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <table>
+            <thead>
+                <th>Mostrar paginas que contengan ...</th>
+                <th></th>
+                <th>Para hacer esto en el cuadro de búsqueda</th>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>todas estas palabras: </td>
+                    <td><input id="xX4UFf" name="as_q" type="text"></td>
+                    <td>Ingresa las palabras importantes: Terrier ratonero tricolor .</td>
+                </tr>
+                <tr>
+                    <td>esta palabra o frase exactas: </td>
+                    <td><input id="CwYCWc" name="as_epq" type="text"></td>
+                    <td>Ingresa las palabras exactas entre comillas: "Terrier ratonero" .</td>
+                </tr> 
+                <tr>
+                    <td>cualquiera de estas palabras: </td>
+                    <td><input value="" id="mSoczb" name="as_oq" type="text"></td>
+                    <td>Ingresa OR entre las palabras que desees: En miniatura OR estándar . </td>                   </td>
+                </tr>     
+                <tr>
+                    <td>ninguna de estas palabras: </td>
+                    <td><input value="" id="t2dX1c" name="as_eq" type="text"></td>
+                    <td>Ingresa un signo menos justo delante de las palabras que no deseas que aparezcan: -Roedor, -"Jack Russell" . </td>                   </td>
+                </tr>     
+                <tr>
+                    <td></td>
+                    <td style="text-align: right;"><input id="CIGjud" name="tbs" type="hidden" value=""><input type="submit" value="Google Search"></td>
+                    <td></td>
+                </tr>                                                             
+            </tbody>
+                </div>
+                </form>
+        </table>
+        
     </body>
 </html>
+
+ 

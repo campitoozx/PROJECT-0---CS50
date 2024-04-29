@@ -1,20 +1,23 @@
-<style>
 a {
      outline: none;
      text-decoration: none;
      padding: 2px 1px 0;
-     text-align: right
+     text-align: right;
+     
 }
 a:link {
          color: white;
+         text-decoration: none;
 }
 a:visited {
             color: white;
+            text-decoration: none;
 }
 body {
-    background-color:#444746  
+    background-color:#444746;
+    color: white;
 }
-input{
+input {
     border-style: solid;
     background-color: transparent;
 }
@@ -29,8 +32,20 @@ input[type="submit"] {
     color: white;
     border-style: groove;
     }
-div{
+div {
     color: white;
     text-align: right;
 }
-</style>
+advanced-inputs {
+    color: black;   
+}
+h3 {
+    color: #f28b82;
+    margin-left: 10px;
+}
+thead {
+    text-align: left;
+}
+tbody {
+    text-align: left;
+}
